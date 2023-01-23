@@ -587,7 +587,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     with open(f'./{args.params}', 'r') as f:
-        params_loaded = yaml.load(f)
+        print("f", f)
+        params_loaded = yaml.full_load(f)
     current_time = datetime.datetime.now().strftime('%b.%d_%H.%M.%S')
     if params_loaded['type'] == "image":
         helper = ImageHelper(current_time=current_time, params=params_loaded,
