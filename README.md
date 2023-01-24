@@ -17,6 +17,14 @@ I encourage to contact me (eugene@cs.cornell.edu) or raise Issues in GitHub, so 
 Most of the experiments resulted by tweaking parameters in utils/params.yaml (for images) 
 and utils/words.yaml (for text), you can play with them yourself.
 
+
+## To use visdom:
+start the visdom server before starting the training
+
+```python -m visdom.server```
+
+And the code can run.
+
 ## Reddit dataset
 * Corpus parsed dataset: https://drive.google.com/file/d/1qTfiZP4g2ZPS5zlxU51G-GDCGGr23nvt/view?usp=sharing 
 * Whole dataset: https://drive.google.com/file/d/1yAmEbx7ZCeL45hYj5iEOvNv7k9UoX3vp/view?usp=sharing

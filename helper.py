@@ -208,6 +208,8 @@ class Helper:
             if self.params['diff_privacy']:
                 update_per_layer.add_(self.dp_noise(data, self.params['sigma']))
 
+            #Yang added .float()
+            data = data.float()
             data.add_(update_per_layer)
 
         return True
