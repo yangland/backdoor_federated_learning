@@ -1,0 +1,40 @@
+current path: saved_models/model_image_Feb.08_21.21.44
+Loading data
+We use following environment for graphs:  ppdl_experiment
+Selected models: [19, 72, 90, 71, 50, 69, 74, 98, 52, 18]
+There are 0 adversaries in the training.
+time spent on training: 9.622527837753296
+___Test Target_ResNet_18 poisoned: False, epoch: 1: Average loss: 2.3035, Accuracy: 1000/10000 (10.0000%)
+Done in 12.24953031539917 sec.
+Selected models: [4, 35, 82, 47, 17, 31, 72, 32, 92, 75]
+There are 0 adversaries in the training.
+time spent on training: 6.63819432258606
+___Test Target_ResNet_18 poisoned: False, epoch: 2: Average loss: 2.3034, Accuracy: 994/10000 (9.9400%)
+Done in 9.214250326156616 sec.
+Selected models: [74, 20, 95, 85, 81, 11, 3, 52, 47, 56]
+There are 0 adversaries in the training.
+time spent on training: 6.839723587036133
+___Test Target_ResNet_18 poisoned: False, epoch: 3: Average loss: 2.3037, Accuracy: 1000/10000 (10.0000%)
+Done in 9.465242862701416 sec.
+Selected models: [51, 35, 53, 54, 98, 83, 93, 2, 24, 75]
+There are 0 adversaries in the training.
+time spent on training: 6.176079511642456
+___Test Target_ResNet_18 poisoned: False, epoch: 4: Average loss: 2.3049, Accuracy: 971/10000 (9.7100%)
+Done in 8.768098592758179 sec.
+Selected models: [39, 74, 89, 70, 2, 97, 82, 93, 88, 83]
+There are 0 adversaries in the training.
+time spent on training: 6.189547777175903
+___Test Target_ResNet_18 poisoned: False, epoch: 5: Average loss: 2.3052, Accuracy: 1000/10000 (10.0000%)
+Done in 8.753571510314941 sec.
+Selected models: [59, 85, 69, 7, 18, 57, 54, 39, 71, 60]
+There are 0 adversaries in the training.
+time spent on training: 6.853046655654907
+___Test Target_ResNet_18 poisoned: False, epoch: 6: Average loss: 2.3055, Accuracy: 1000/10000 (10.0000%)
+Done in 9.426044940948486 sec.
+Selected models: [29, 82, 12, 23, 22, 42, 38, 16, 83, 54]
+There are 0 adversaries in the training.
+time spent on training: 6.277963161468506
+___Test Target_ResNet_18 poisoned: False, epoch: 7: Average loss: 2.3059, Accuracy: 1000/10000 (10.0000%)
+Done in 8.840296030044556 sec.
+Selected models: [38, 71, 57, 96, 58, 54, 50, 70, 72, 8]
+There are 0 adversaries in the training.

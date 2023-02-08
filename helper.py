@@ -198,13 +198,16 @@ class Helper:
         Perform FedAvg algorithm and perform some clustering on top of it.
 
         """
+        # print("target_model length: ", len(target_model.state_dict().items())) # 122
+        # print("self.params[number_of_total_participants]: ", self.params["number_of_total_participants"]) # 100
+        # print("weight_accumulator size: ", len(weight_accumulator)) # 122
 
         for name, data in target_model.state_dict().items():
             # Yang debugging
-            print("name:", name)
-            print("data: ", data)
+            # print("name:", name)
+            # print("data: ", data.size())
 
-            print("weight_accumulator[name]: ", weight_accumulator[name])
+            # print("weight_accumulator[name]: ", weight_accumulator[name].size())
 
             if self.params.get('tied', False) and name == 'decoder.weight':
                 continue

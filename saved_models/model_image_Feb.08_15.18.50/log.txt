@@ -1,0 +1,2 @@
+current path: saved_models/model_image_Feb.08_15.18.50
+Loading data

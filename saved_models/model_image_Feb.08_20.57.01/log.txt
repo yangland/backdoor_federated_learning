@@ -1,0 +1,6 @@
+current path: saved_models/model_image_Feb.08_20.57.01
+Loading data
+We use following environment for graphs:  ppdl_experiment
+Selected models: [37, 3, 54, 34, 67, 65, 2, 9, 11, 39]
+There are 0 adversaries in the training.
+time spent on training: 9.91990876197815

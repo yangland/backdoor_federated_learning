@@ -54,7 +54,13 @@ def train(helper, epoch, train_data_sets, local_model, target_model, is_poison, 
             current_number_of_adversaries += 1
     logger.info(f'There are {current_number_of_adversaries} adversaries in the training.')
 
+    # Yang, debugging
+    # print("no_models: ", helper.params['no_models']) # 10 model been selected in each round?
     for model_id in range(helper.params['no_models']):
+
+        # Yang, debugging
+        print("model_id: ", model_id)
+
         model = local_model
         ## Synchronize LR and models
         model.copy_params(target_model.state_dict())

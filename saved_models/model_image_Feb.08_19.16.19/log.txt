@@ -1,0 +1,25 @@
+current path: saved_models/model_image_Feb.08_19.16.19
+Loading data
+We use following environment for graphs:  ppdl_experiment
+Selected models: [8, 90, 93, 14, 97, 68, 58, 59, 51, 43]
+There are 0 adversaries in the training.
+time spent on training: 9.275908470153809
+___Test Target_ResNet_18 poisoned: False, epoch: 1: Average loss: 2.3030, Accuracy: 1004/10000 (10.0400%)
+Done in 11.938301086425781 sec.
+Selected models: [40, 42, 13, 73, 79, 38, 51, 26, 36, 6]
+There are 0 adversaries in the training.
+time spent on training: 6.511977434158325
+___Test Target_ResNet_18 poisoned: False, epoch: 2: Average loss: 2.3034, Accuracy: 999/10000 (9.9900%)
+Done in 9.132978200912476 sec.
+Selected models: [91, 76, 71, 56, 3, 9, 4, 5, 16, 63]
+There are 0 adversaries in the training.
+time spent on training: 6.9630115032196045
+___Test Target_ResNet_18 poisoned: False, epoch: 3: Average loss: 2.3037, Accuracy: 1000/10000 (10.0000%)
+Done in 9.60457181930542 sec.
+Selected models: [58, 2, 41, 77, 28, 46, 79, 12, 96, 13]
+There are 0 adversaries in the training.
+time spent on training: 6.313222885131836
+___Test Target_ResNet_18 poisoned: False, epoch: 4: Average loss: 2.3036, Accuracy: 1000/10000 (10.0000%)
+Done in 8.914282083511353 sec.
+Selected models: [95, 77, 34, 89, 47, 1, 43, 98, 70, 79]
+There are 0 adversaries in the training.
