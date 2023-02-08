@@ -11,6 +11,7 @@ import torch.nn.functional as F
 logger = logging.getLogger("logger")
 import os
 
+import aggregator
 
 class Helper:
     def __init__(self, current_time, params, name):
@@ -199,6 +200,12 @@ class Helper:
         """
 
         for name, data in target_model.state_dict().items():
+            # Yang debugging
+            print("name:", name)
+            print("data: ", data)
+
+            print("weight_accumulator[name]: ", weight_accumulator[name])
+
             if self.params.get('tied', False) and name == 'decoder.weight':
                 continue
 
